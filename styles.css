@@ -1,0 +1,109 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    cursor:pointer;
+    font-weight: bold;
+    color: black;
+}
+
+p span {
+    color:brown;
+}
+
+.boxes {
+    display: block;
+    position: relative;
+    margin: 1em;
+    padding: 1em;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    width: 30em;
+}
+
+#box1 {
+    background-color: azure;
+}
+
+#box2 {
+    background-color: beige;
+}
+
+#box3 {
+    background-color: bisque;
+}
+
+#box4 {
+    background-color: blanchedalmond;
+}
+
+.ducks {
+    display:block;
+    position: absolute;
+    top: 1.5em;
+    left: 9em;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: chocolate;
+}
+
+h1 {
+    color:chartreuse;
+}
+
+.original {
+    color:blue;
+}
+
+.additional {
+    color: red;
+}
+
+#rank1 {
+    color:purple;
+}
+#rank2 {
+    color: green;
+}
+
+#rank3 {
+    color: yellow;
+}
+
+#rank4 {
+    color: yellowgreen;
+}
+
+#rank5 {
+    color:crimson;
+}
+
+ul {
+    color:aqua;
+}
+
+.star {
+    color:gold;
+}
+
+#wars {
+    color: silver;  
+}
+
+.list {
+    border: solid 2px black;
+}
